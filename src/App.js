@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <br/><br/><br/>
+      <br/><br/><br/><br/>
       <img src={wise} className="App-logo" alt="logo" />
       <br/><br/><br/>
       <p>
