@@ -2,14 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
+/********** these function are let picture CLOCKWISE **********/
+.App-clockWise {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-clockWise {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/****** these function are let picture COUNTERCLOCKWISE *******/
+.App-counterClockWise {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-counterClockWise {
+    animation: App-logo-counterSpin infinite 1s linear;
+  }
+}
+
+@keyframes App-logo-counterSpin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
 
@@ -26,13 +57,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

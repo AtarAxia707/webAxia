@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import wise from './sleepWise.jpg';
+import sleepWise from './sleepWise.jpg';
+import bugWise from './bugWise.png';
 import './App.css';
 import Header from './Header';
 function App() {
   return (
-    <div className="App">
+    <div className="App" /* data-theme="dark" */>
       <Header />
       <br/><br/><br/><br/>
-      <img src={wise} className="App-logo" alt="logo" />
+      <img src={sleepWise} className="App-clockWise" alt="logo" />
+      <img src={bugWise} className="App-counterClockWise" alt="logo" />
       <br/><br/><br/>
       <p>
         axia no web desu Edit <code>src/App.js</code> and save to reload.
