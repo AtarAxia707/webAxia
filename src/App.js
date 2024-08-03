@@ -28,7 +28,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Pornhub
+        祕密基地
       </a>
     </div>
   );

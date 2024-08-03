@@ -31,7 +31,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-counterClockWise {
-    animation: App-logo-counterSpin infinite 1s linear;
+    animation: App-logo-counterSpin infinite 10s linear;
   }
 }
 

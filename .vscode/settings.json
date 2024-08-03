@@ -3,5 +3,6 @@
   "diffEditor.hideUnchangedRegions.revealLineCount": 24,
   "debug.console.fontSize": 20,
   "terminal.integrated.fontSize": 20,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "winopacity.opacity": 220
 }
