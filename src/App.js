@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Header';
 function App() {
   return (
-    <div className="App" /* data-theme="dark" */>
+    <div className="App">
       <Header />
       <br/><br/><br/><br/>
       <img src={sleepWise} className="App-clockWise" alt="logo" />
@@ -28,7 +28,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Pornhub
+        祕密基地
       </a>
     </div>
   );
