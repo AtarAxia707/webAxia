@@ -2,7 +2,6 @@ import { MenuItem,Menu,Icon } from 'semantic-ui-react';
 import React, {useState, useEffect} from 'react';
 //target='_blank' open a new tab
 
-let Theme = 'dark' | 'light'
 /* function Header(){ */
 const Header = () => {
   const [theme, setTheme] = useState('light')
@@ -30,17 +29,14 @@ const Header = () => {
       </MenuItem>
 
       <MenuItem position='right'>
-        {/* <Icon name='sun' size='large'/> */}
-
+        <Icon name='sun' size='large'/>
         <div className='container-switch'>
-          <span>Change Theme</span>
           <label className="switch">
             <input type="checkbox" onChange={handleChange} checked={theme === 'dark'} />
             <span className="slider"></span>
           </label>
         </div>
-
-        {/* <Icon name='moon outline' size='large'/> */}
+        <Icon name='moon outline' size='large'/>
       </MenuItem>
     </Menu>
   )
