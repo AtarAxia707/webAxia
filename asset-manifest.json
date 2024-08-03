@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webAxia/static/css/main.d9b7b584.css",
-    "main.js": "/webAxia/static/js/main.a1ce6cb5.js",
+    "main.css": "/webAxia/static/css/main.72b7d0c3.css",
+    "main.js": "/webAxia/static/js/main.aedb4e7a.js",
     "static/js/453.b4b7f1ff.chunk.js": "/webAxia/static/js/453.b4b7f1ff.chunk.js",
     "static/media/sleepWise.jpg": "/webAxia/static/media/sleepWise.b3fcd4e8e0212e2b542e.jpg",
     "static/media/bugWise.png": "/webAxia/static/media/bugWise.927d8f792cb5d22ae244.png",
@@ -22,12 +22,12 @@
     "static/media/outline-icons.woff": "/webAxia/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/webAxia/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/webAxia/index.html",
-    "main.d9b7b584.css.map": "/webAxia/static/css/main.d9b7b584.css.map",
-    "main.a1ce6cb5.js.map": "/webAxia/static/js/main.a1ce6cb5.js.map",
+    "main.72b7d0c3.css.map": "/webAxia/static/css/main.72b7d0c3.css.map",
+    "main.aedb4e7a.js.map": "/webAxia/static/js/main.aedb4e7a.js.map",
     "453.b4b7f1ff.chunk.js.map": "/webAxia/static/js/453.b4b7f1ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b7b584.css",
-    "static/js/main.a1ce6cb5.js"
+    "static/css/main.72b7d0c3.css",
+    "static/js/main.aedb4e7a.js"
   ]
 }
